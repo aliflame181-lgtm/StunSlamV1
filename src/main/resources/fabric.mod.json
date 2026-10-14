@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "stunslammacro",
+  "version": "${version}",
+  "name": "StunSlamMacro",
+  "description": "One key press: axe hit (breaks the shield) then mace hit on the next tick. Client-side only.",
+  "authors": ["AR_LEGENDZ"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.stunslammacro.StunSlamClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
